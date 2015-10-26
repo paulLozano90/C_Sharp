@@ -1,0 +1,12 @@
+﻿
+La clase empleado estara formada por:
+Nombre, edad, estudios, puesto.
+
+Estudios disponibles:
+Basico, medio , superior, doctor
+
+Cuatro posibles puestos:
+Programador, analista, director de proyectos y director IT
+
+Los estudios basicos solo permiten ser programador, el medio
+programador y analista... y asi sucesivamente.

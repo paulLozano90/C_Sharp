@@ -8,6 +8,7 @@ using Colecciones.Datos;
 
 namespace Colecciones
 {
+    //Para que funciones poner bien MAIN
     class Program
     {
         static void Mai(string[] args)

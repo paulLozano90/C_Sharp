@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColeccionesPractica", "Cole
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPractica", "LinqPractica\LinqPractica.csproj", "{4BDF0D1E-E07F-49BB-9784-0B958AC0DE73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSqlServer", "LinqSqlServer\LinqSqlServer.csproj", "{406285B0-67E7-4FA9-B576-7518203AC3A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4BDF0D1E-E07F-49BB-9784-0B958AC0DE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BDF0D1E-E07F-49BB-9784-0B958AC0DE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BDF0D1E-E07F-49BB-9784-0B958AC0DE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406285B0-67E7-4FA9-B576-7518203AC3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406285B0-67E7-4FA9-B576-7518203AC3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406285B0-67E7-4FA9-B576-7518203AC3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406285B0-67E7-4FA9-B576-7518203AC3A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

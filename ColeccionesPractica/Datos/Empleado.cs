@@ -17,7 +17,12 @@ namespace ColeccionesPractica.Datos
 
     public class Empleado
     {
-        public string Nombre { get; set; }
+        private string _nombre;
+        public string Nombre
+        {
+            get { return _nombre; }
+            set { _nombre = value.Sustituye("a","A"); }
+        }
         public int Edad { get; set; }
         public Estudios Estudio { get; set; }
 

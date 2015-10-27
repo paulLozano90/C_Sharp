@@ -1,0 +1,9 @@
+﻿Coche:
+-Matricula ("Unico")
+-Modelo
+-AñoFabricacion
+
+Busqueda por:
+-Matricula
+-Modelo
+-Modelo y Año de Fabricacion(ordenar por Matricula)

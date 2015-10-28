@@ -1,0 +1,17 @@
+﻿
+Aulas:
+
+Profesores, pueden dar varios cursos
+	Nombre
+	Edad
+Aulas pueden impartirse varios cursos
+	Nombre
+	Capacidad
+Cursos, puede ser dado por varios profesores
+	Nombre
+	Duracion
+	Inicio
+	Fin
+Alumnos puede cursar varios cursos a la vez
+	Dni
+	Nombre

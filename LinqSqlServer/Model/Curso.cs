@@ -12,17 +12,17 @@ namespace LinqSqlServer.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Cargo
+    public partial class Curso
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Cargo()
+        public Curso()
         {
             this.Empleados = new HashSet<Empleados>();
         }
     
-        public int idCargo { get; set; }
+        public int idCurso { get; set; }
         public string nombre { get; set; }
-        public double salarioBase { get; set; }
+        public int duracion { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Empleados> Empleados { get; set; }

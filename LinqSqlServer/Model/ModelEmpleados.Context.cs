@@ -26,5 +26,9 @@ namespace LinqSqlServer.Model
         }
     
         public virtual DbSet<Cargo> Cargo { get; set; }
+        public virtual DbSet<Empleados> Empleados { get; set; }
+        public virtual DbSet<Curso> Curso { get; set; }
+        public virtual DbSet<Proyecto> Proyecto { get; set; }
+        public virtual DbSet<EmpleadosProyecto> EmpleadosProyecto { get; set; }
     }
 }

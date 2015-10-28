@@ -57,6 +57,15 @@
     <Compile Include="Model\Cargo.cs">
       <DependentUpon>ModelEmpleados.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\Curso.cs">
+      <DependentUpon>ModelEmpleados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Empleados.cs">
+      <DependentUpon>ModelEmpleados.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmpleadosProyecto.cs">
+      <DependentUpon>ModelEmpleados.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\ModelEmpleados.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -72,7 +81,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelEmpleados.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Model\PuestoParcial.cs" />
+    <Compile Include="Model\CargoParcial.cs" />
+    <Compile Include="Model\Proyecto.cs">
+      <DependentUpon>ModelEmpleados.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

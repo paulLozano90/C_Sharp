@@ -12,19 +12,24 @@ namespace LinqSqlServer.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Cargo
+    public partial class Empleados
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Cargo()
+        public Empleados()
         {
-            this.Empleados = new HashSet<Empleados>();
+            this.Curso = new HashSet<Curso>();
+            this.EmpleadosProyecto = new HashSet<EmpleadosProyecto>();
         }
     
-        public int idCargo { get; set; }
+        public int idEmpleado { get; set; }
         public string nombre { get; set; }
-        public double salarioBase { get; set; }
+        public int cargo { get; set; }
+        public System.DateTime alta { get; set; }
     
+        public virtual Cargo Cargo1 { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Empleados> Empleados { get; set; }
+        public virtual ICollection<Curso> Curso { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<EmpleadosProyecto> EmpleadosProyecto { get; set; }
     }
 }
